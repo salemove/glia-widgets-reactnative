@@ -1,0 +1,17 @@
+.vscode/
+android/
+ios/
+node_modules/
+tools/osp/
+
+# Pre-created with some long comments we don't want to edit:
+tsconfig.json
+wdio_iOS.conf.js
+wdio_android.conf.js
+
+firebase.json
+
+node_types/README.md
+
+# Animation files are not for humans to read and thus are stored minimized - as a single line.
+**/res/Animations/**/*.json
