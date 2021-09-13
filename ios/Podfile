@@ -10,7 +10,7 @@ target 'ReactNativeExampleApp' do
 
   config = use_native_modules!
 
-  pod 'GliaWidgets', git: 'https://github.com/salemove/ios-sdk-widgets', tag: '0.5.2'
+  pod 'GliaWidgets', '0.5.3'
 
   use_react_native!(
     :path => config[:reactNativePath],
